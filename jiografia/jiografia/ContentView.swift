@@ -42,6 +42,7 @@ struct ContentView: View {
                 }
                 .font(.system(size: 160))
                 .minimumScaleFactor(0.1)
+                .background(Color.red)
             }
             Spacer()
             

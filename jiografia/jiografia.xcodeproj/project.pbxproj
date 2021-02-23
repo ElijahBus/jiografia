@@ -14,6 +14,7 @@
 		82E82C7D25E579F0006201D3 /* CountryFlags.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E82C7C25E579F0006201D3 /* CountryFlags.json */; };
 		82E82C8025E57A3D006201D3 /* CountriesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E82C7F25E57A3D006201D3 /* CountriesHelper.swift */; };
 		82E82C8425E57ADA006201D3 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E82C8325E57ADA006201D3 /* CountryModel.swift */; };
+		82E82C8925E5886E006201D3 /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E82C8825E5886E006201D3 /* GridStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		82E82C7C25E579F0006201D3 /* CountryFlags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryFlags.json; sourceTree = "<group>"; };
 		82E82C7F25E57A3D006201D3 /* CountriesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesHelper.swift; sourceTree = "<group>"; };
 		82E82C8325E57ADA006201D3 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		82E82C8825E5886E006201D3 /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				82E82C6E25E57961006201D3 /* ContentView.swift */,
 				82E82C7F25E57A3D006201D3 /* CountriesHelper.swift */,
 				82E82C8325E57ADA006201D3 /* CountryModel.swift */,
+				82E82C8825E5886E006201D3 /* GridStack.swift */,
 				82E82C7C25E579F0006201D3 /* CountryFlags.json */,
 				82E82C7025E57963006201D3 /* Assets.xcassets */,
 				82E82C7525E57963006201D3 /* Info.plist */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E82C8925E5886E006201D3 /* GridStack.swift in Sources */,
 				82E82C6F25E57961006201D3 /* ContentView.swift in Sources */,
 				82E82C6D25E57961006201D3 /* jiografiaApp.swift in Sources */,
 				82E82C8425E57ADA006201D3 /* CountryModel.swift in Sources */,

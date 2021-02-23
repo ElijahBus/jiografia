@@ -8,7 +8,6 @@
 import Foundation
 
 class DataLoader {
-    
     var countries = [Country]()
     
     init() {
@@ -20,7 +19,6 @@ class DataLoader {
         
         if let fileLocationOne = Bundle.main.url(forResource: "CountryFlags", withExtension: "json") {
             
-            // do catch in case of an error
             do {
                 let data = try Data(contentsOf: fileLocationOne)
                 let jsonDecoder = JSONDecoder()
